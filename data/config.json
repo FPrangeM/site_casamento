@@ -1,0 +1,70 @@
+{
+  "casal": {
+    "noiva": "Mariana",
+    "noivo": "Fernando"
+  },
+  "data": "2026-05-15",
+  "local": {
+    "cerimonia": "Casa Bovero - Perdizes - São Paulo",
+    "festa": "Casa Bovero - Perdizes - São Paulo"
+  },
+  "dress_code": {
+    "paragraph": "Queremos que todos se sintam confortáveis e à vontade para aproveitar ao máximo esse dia conosco. Para garantir que ninguém se sinta deslocado, preparamos uma breve lista com algumas recomendações para se adequar ao traje esporte fino.",
+    "recommended": [
+      "Vestidos curtos, midis, e longos",
+      "Macacões",
+      "Saias",
+      "Blusas",
+      "Camisas",
+      "Calças de sarja",
+      "Calças sociais",
+      "Blazers",
+      "Sapatos confortáveis"
+    ],
+    "not_recommended": [
+      "Vestidos estilo social completo",
+      "Camisetas",
+      "Regatas",
+      "Shorts",
+      "Ternos",
+      "Gravatas",
+      "Jeans",
+      "Salto que vai cansar seu pé ;)",
+      "Chinelos"
+    ]
+  },
+  "gifts": {
+    "paragraph": "Acatando às atuais normais sociais, e para a praticidade de todos, aceitamos presentes via Pix. Também aceitamos presentes físicos, caso prefira. Para Pix, basta utilizar o número de celular de qualquer uma de nós como Chave Pix. Aceitamos contribuições para nossa casa, nossa Panqueca, e nossa viagem da lua de mel. Para inspiração, segue nossa lista:",
+    "items": [
+      {
+        "name": "Seleção de chás",
+        "price": "R$150"
+      },
+      {
+        "name": "Prato de sopa na Islândia",
+        "price": "R$150"
+      },
+      {
+        "name": "Peitoral anti puxão para a Panqueca",
+        "price": "R$150"
+      },
+      {
+        "name": "Livros para a biblioteca",
+        "price": "R$200"
+      },
+      {
+        "name": "Estoque de Quicos (pelúcias para a Panqueca destruir em 1 hora)",
+        "price": "R$200"
+      },
+      {
+        "name": "Jogo de pratos",
+        "price": "R$200"
+      }
+    ]
+  },
+  "links": {
+    "lista_presentes": [],
+    "pix": "(11) 99999-9999",
+    "confirmar_presenca": "URL_DO_SEU_FORMULARIO_GOOGLE"
+  }
+}

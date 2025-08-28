@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariana e Fernando - 15/05/2026</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="casal-nomes">Mariana & Fernando</h1>
+        <div class="event-details">
+            <p id="casamento-data">15 de maio de 2026</p>
+            <p id="casamento-local">Nome do Local - Bairro - Cidade</p>
+        </div>
+        <p class="invitation-text">
+            Temos o prazer de convidá-los para comemorar esta ocasião tão especial conosco! Junte-se a nós para um dia repleto de alegria, diversão e emoção em que daremos o próximo passo de nossas vidas. Esperamos vocês lá!
+        </p>
+    </header>
+    
+    <main>
+        <section id="dress-code">
+            <h2>Dress Code</h2>
+            <p class="section-intro" id="dress-code-paragraph"></p>
+            <div class="lists-container">
+                <div class="list-column">
+                    <h3>Recomendamos</h3>
+                    <ul id="recommended-list"></ul>
+                </div>
+                <div class="list-column">
+                    <h3>Não Recomendamos</h3>
+                    <ul id="not-recommended-list"></ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="gifts">
+            <h2>Presentes</h2>
+            <p class="section-intro" id="gifts-paragraph"></p>
+            <div id="gift-grid-container" class="gift-grid-container"></div>
+        </section>
+
+        <section id="rsvp">
+            <h2>Confirmação de Presença</h2>
+            <p class="section-intro">Nós gostaríamos muito de contar com a sua presença nesse momento tão importante. Para ajudar a nos prepararmos, pedimos, por gentileza, que preencha o formulário abaixo.</p>
+            
+            <form id="rsvp-form">
+                <div class="form-group">
+                    <p>Você vai conseguir comparecer? *</p>
+                    <label><input type="radio" name="attending" value="true" checked> Sim! :D</label>
+                    <label><input type="radio" name="attending" value="false"> Infelizmente não :(</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Nome completo *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="dietary">Restrições alimentares (opcional)</label>
+                    <textarea id="dietary" name="dietary_restrictions"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="plus-one">+1 (opcional)</label>
+                    <input type="text" id="plus-one" name="plus_one_name" placeholder="Nome do acompanhante">
+                </div>
+
+                <button type="submit" class="submit-button">Enviar confirmação</button>
+            </form>
+            <div id="form-response"></div>
+        </section>
+    </main>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
