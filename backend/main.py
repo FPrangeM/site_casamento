@@ -10,7 +10,11 @@ models.Base.metadata.create_all(bind=database.engine)
 app = FastAPI()
 
 # Configuração do CORS
-origins = ["*"] # Em produção, seria ideal restringir ao domínio do seu site
+origins = [
+    "https://marifer.com.br",
+    "https://www.marifer.com.br",
+    "https://marifer.onrender.com"
+] # Em produção, seria ideal restringir ao domínio do seu site
 
 app.add_middleware(
     CORSMiddleware,
