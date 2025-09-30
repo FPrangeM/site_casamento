@@ -85,7 +85,8 @@ document.addEventListener('DOMContentLoaded', () => {
             formResponseEl.innerText = 'Enviando...';
             formResponseEl.style.color = '#555';
 
-            fetch('http://127.0.0.1:8000/api/rsvp', {
+            // fetch('http://127.0.0.1:8000/api/rsvp', {
+            fetch('https://marifer-api.onrender.com/api/rsvp', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(guestData),
