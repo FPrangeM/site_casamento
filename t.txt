@@ -1,8 +1,0 @@
-Sou um programador experiente com a maioria das tecnologias, porém no escopo de desenvolvimento de sites, não tenho quase nenhuma experiencia.
-
-Quero criar um site para o meu casamento, e tenho um site que meu colega de trabalho criou e gostei muito, e gostaria de me basear.
-
-Levando em consideração que tenho acesso ao "gemini cli" para me ajudar a criar o site, e o site em si, crie para mim um guia de como eu deveria abordar o tema, e quais etapas eu deveria seguir para ter um site muito parecido com o site referência, porém que eu, um leigo, consiga editar as principais funcionalidades e deixar com a minha cara.
-
-Meu colega me permitiu utilizar o site dele para desenvolver meu projeto. Atualmete só baixei o codigo fonte e salvei no arquivo './Referencias/site.html'.
-Crie para mim um site utilizando esse como base. Ao longo do processo ou antes, pode me perguntar questões chaves que se eu não souber, posso consultar meu colega.
