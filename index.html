@@ -29,7 +29,7 @@
             /* Cor do texto principal (sépia escuro, como nos prints) */
             color: #70452B;
             /* Aplica background.png como plano de fundo */
-            background-image: url('./assets/background.png');
+            background-image: url('assets/background.png');
             /* Ajusta a largura da imagem para se adequar à largura do site, mantendo a proporção */
             background-size: 100% auto;
             /* Replica verticalmente para que não fique sobrando */
@@ -53,27 +53,10 @@
         }
     </style>
 </head>
-<!-- 
-  NOTA: Adicionado 'relative' ao body para que as imagens
-  de canto possam ser posicionadas de forma absoluta em relação a ele.
--->
+
 
 <body class="flex flex-col items-center p-4 md:p-8 relative">
 
-    <!-- 
-      NOVAS IMAGENS FLORAIS 
-      - 'hidden md:block' = Esconde em mobile, mostra em desktop.
-      - 'absolute top-0 left-0/right-0' = Posiciona nos cantos superiores.
-      - 'w-56 lg:w-64' = Define um tamanho responsivo para as imagens.
-      - 'z-0' = Coloca as imagens "atrás" do conteúdo principal (que terá z-10).
-    -->
-
-
-    <!-- 
-      Container principal com largura máxima 
-      NOTA: Adicionado 'relative z-10' para garantir que este
-      container de conteúdo fique "na frente" das imagens florais (z-0).
-    -->
 
     <div class="relative w-full overflow-x-hidden">
 
@@ -254,49 +237,49 @@
                     <!-- Grid de Presentes (responsivo) -->
                     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-12 px-4">
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg">Uma diária de hotel</p>
                             <p class="text-xl font-semibold mt-2">R$ 500</p>
                         </div>
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg">Pet Sitter pra cuidar da Mia enquanto estivermos viajando</p>
                             <p class="text-xl font-semibold mt-2">R$ 400</p>
                         </div>
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg">Passeio de barco</p>
                             <p class="text-xl font-semibold mt-2">R$ 500</p>
                         </div>
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg">Jantar especial</p>
                             <p class="text-xl font-semibold mt-2">R$ 500</p>
                         </div>
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg">Cadeiras para a sacada</p>
                             <p class="text-xl font-semibold mt-2">R$ 400</p>
                         </div>
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg text-center">Aspirador robô<br>(para ajudar com os pêlos da Mia e cabelos
                                 da mãe
                                 dela)</p>
                             <p class="text-xl font-semibold mt-2">R$ 1.000</p>
                         </div>
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg text-center">Aula de mergulho<br>(sonho da noiva)</p>
                             <p class="text-xl font-semibold mt-2">R$ 1500</p>
                         </div>
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg text-center">Aula de mergulho<br>(para o noivo acompanhar)</p>
                             <p class="text-xl font-semibold mt-2">R$ 1500</p>
                         </div>
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg">Jogo de pratos novos</p>
                             <p class="text-xl font-semibold mt-2">R$ 400</p>
                         </div>
@@ -320,47 +303,47 @@
                     <!-- Grid de Presentes (responsivo) -->
                     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-12 px-4">
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg">Dia de SPA para a noiva</p>
                             <p class="text-xl font-semibold mt-2">R$ 700</p>
                         </div>
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg">Jogo de taças novas</p>
                             <p class="text-xl font-semibold mt-2">R$ 150</p>
                         </div>
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg">Caminha nova pra Mia</p>
                             <p class="text-xl font-semibold mt-2">R$ 150</p>
                         </div>
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg">Abajur para o quarto</p>
                             <p class="text-xl font-semibold mt-2">R$ 500</p>
                         </div>
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg">Plantinhas e vasos novos para a sacada</p>
                             <p class="text-xl font-semibold mt-2">R$ 150</p>
                         </div>
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg">Espelho decorativo para o corredor</p>
                             <p class="text-xl font-semibold mt-2">R$ 400</p>
                         </div>
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg">Almoço especial</p>
                             <p class="text-xl font-semibold mt-2">R$ 300</p>
                         </div>
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg">Passeio ao por do sol</p>
                             <p class="text-xl font-semibold mt-2">R$ 300</p>
                         </div>
                         <div
-                            class="bg-opacity-80 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
+                            class="bg-opacity-35 bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                             <p class="text-lg">Piquenique</p>
                             <p class="text-xl font-semibold mt-2">R$ 500</p>
                         </div>
