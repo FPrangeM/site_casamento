@@ -11,7 +11,7 @@
     <!-- Google Fonts: Crimson Pro e Pinyon Script -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,500..900;1,500..900&family=Pinyon+Script&display=swap" rel="stylesheet">
     
     <!-- Estilos customizados -->
     <style>
@@ -63,8 +63,6 @@
       - 'w-56 lg:w-64' = Define um tamanho responsivo para as imagens.
       - 'z-0' = Coloca as imagens "atrás" do conteúdo principal (que terá z-10).
     -->
-    <img src="./assets/flor-left.png" alt="Detalhe floral esquerdo" class="hidden md:block absolute top-0 left-0 w-56 lg:w-64 z-0">
-    <img src="./assets/flor-right.png" alt="Detalhe floral direito" class="hidden md:block absolute top-0 right-0 w-56 lg:w-64 z-0">
     
 
     <!-- 
@@ -75,20 +73,24 @@
     <main class="w-full max-w-3xl mx-auto text-center relative z-10">
 
         <!-- 1. Seção Header (Baseado em image 1.jpg) -->
-        <section class="py-12">
-            <!-- Ícone de alianças -->
-            <img src="./assets/rings.svg" alt="Anéis de Casamento" class="rings-svg mx-auto my-8" width="192" height="49">
-            
-            <p class="text-lg tracking-wide">com muita alegria</p>
-            <h1 class="font-script text-7xl md:text-8xl my-6">Mariana e Fernando</h1>
-            <p class="text-lg tracking-wide">convidam para a cerimônia do seu casamento</p>
-            <!-- Monograma M|F -->
-            <div class="text-4xl font-brown-sugar tracking-widest mt-10">M|F</div>
+        <section class="py-12 relative">
+            <img src="./assets/side-images/section1_left.svg" alt="" class="hidden md:block absolute top-0 left-0 h-full w-auto max-w-[100%] z-0 transform -translate-x-3/4">
+            <div class="relative z-10">
+                <!-- Ícone de alianças -->
+                <img src="./assets/rings.svg" alt="Anéis de Casamento" class="rings-svg mx-auto my-8" width="192" height="49">
+                
+                <p class="text-lg tracking-wide">com muita alegria</p>
+                <h1 class="font-script text-7xl md:text-8xl my-6">Mariana e Fernando</h1>
+                <p class="text-lg tracking-wide">convidam para a cerimônia do seu casamento</p>
+                <!-- Monograma M|F -->
+                <div class="text-4xl font-brown-sugar tracking-widest mt-10">M|F</div>
+            </div>
+            <img src="./assets/side-images/section1_rigth.svg" alt="" class="hidden md:block absolute top-0 right-0 h-full w-auto max-w-[100%] z-0 transform translate-x-3/4">
         </section>
 
         <!-- 2. Seção História (Baseado em image 2.jpg) -->
         <section class="py-12 relative">
-            <img src="./assets/side-images/section2_left.svg" alt="" class="hidden md:block absolute top-0 left-0 h-full w-auto max-w-[50%] z-0 transform -translate-x-3/4">
+            <img src="./assets/side-images/section2_left.svg" alt="" class="hidden md:block absolute top-0 left-0 h-full w-auto max-w-[100%] z-0 transform -translate-x-3/4">
             <div class="relative z-10">
                 <h2 class="font-script text-5xl mb-8">De melhores amigos a para sempre</h2>
                 <div class="space-y-4 text-lg max-w-2xl mx-auto">
@@ -98,16 +100,16 @@
                 </div>
                 <p class="font-script text-4xl mt-12">Ficaremos muito felizes em dividir esse dia com você!</p>
             </div>
-            <img src="./assets/side-images/section2_rigth.svg" alt="" class="hidden md:block absolute top-0 right-0 h-full w-auto max-w-[50%] z-0 transform translate-x-3/4">
+            <img src="./assets/side-images/section2_rigth.svg" alt="" class="hidden md:block absolute top-0 right-0 h-full w-auto max-w-[100%] z-0 transform translate-x-3/4">
         </section>
 
         <!-- 3. Seção Cerimônia (Baseado em image 3.jpg) -->
         <section class="py-12 relative">
-            <img src="./assets/side-images/section3_left.svg" alt="" class="hidden md:block absolute top-0 left-0 h-full w-auto max-w-[50%] z-0 transform -translate-x-3/4">
+            <img src="./assets/side-images/section3_left.svg" alt="" class="hidden md:block absolute top-0 left-0 h-full w-auto max-w-[100%] z-0 transform -translate-x-3/4">
             <div class="relative z-10">
                 <h2 class="text-4xl font-serif tracking-wide"><img src="./assets/sparkling-l.svg" alt="Sparkle" class="inline-block w-10 h-10 align-middle mr-2"> Cerimônia & Recepção <img src="./assets/sparkling-l.svg" alt="Sparkle" class="inline-block w-10 h-10 align-middle ml-2"></h2>
                 <div class="mt-8 space-y-3 text-xl">
-                    <p class="text-3xl">15 de maio de 2026</p>
+                    <p class="text-3xl">15 de maio de 5026</p>
                     <p>16h00 às 22h00</p>
                     
                     <p class="text-3xl pt-6">Recanto Real</p>
@@ -117,12 +119,12 @@
                     <p class="text-base mt-8 px-4 pt-4">Próximo a data do casamento, nossa assessoria entrará em contato para a confirmação de presença</p>
                 </div>
             </div>
-            <img src="./assets/side-images/section3_rigth.svg" alt="" class="hidden md:block absolute top-0 right-0 h-full w-auto max-w-[50%] z-0 transform translate-x-3/4">
+            <img src="./assets/side-images/section3_rigth.svg" alt="" class="hidden md:block absolute top-0 right-0 h-full w-auto max-w-[100%] z-0 transform translate-x-3/4">
         </section>
 
         <!-- 4. Seção Traje (Baseado em image 4.jpg) -->
         <section class="py-12 relative">
-            <img src="./assets/side-images/section4_left.svg" alt="" class="hidden md:block absolute top-0 left-0 h-full w-auto max-w-[50%] z-0 transform -translate-x-3/4">
+            <img src="./assets/side-images/section4_left.svg" alt="" class="hidden md:block absolute top-0 left-0 h-full w-auto max-w-[100%] z-0 transform -translate-x-3/4">
             <div class="relative z-10">
                 <h2 class="text-4xl font-serif tracking-wide"><img src="./assets/sparkling-l.svg" alt="Sparkle" class="inline-block w-10 h-10 align-middle mr-2"> Traje esporte fino <img src="./assets/sparkling-l.svg" alt="Sparkle" class="inline-block w-10 h-10 align-middle ml-2"></h2>
                 <div class="mt-8 space-y-4 text-lg px-4 max-w-2xl mx-auto">
@@ -154,12 +156,12 @@
                     </div>
                 </div>
             </div>
-            <img src="./assets/side-images/section4_rigth.svg" alt="" class="hidden md:block absolute top-0 right-0 h-full w-auto max-w-[50%] z-0 transform translate-x-3/4">
+            <img src="./assets/side-images/section4_rigth.svg" alt="" class="hidden md:block absolute top-0 right-0 h-full w-auto max-w-[100%] z-0 transform translate-x-3/4">
         </section>
 
-        <!-- 5. Seção Presentes (Baseado em image 5, 6, 7.jpg) -->
+        <!-- 5. Seção Presentes (Baseado em image 5.jpg) -->
         <section class="py-12 relative">
-            <img src="./assets/side-images/section5_left.svg" alt="" class="hidden md:block absolute top-0 left-0 h-full w-auto max-w-[50%] z-0 transform -translate-x-3/4">
+            <img src="./assets/side-images/section5_left.svg" alt="" class="hidden md:block absolute top-0 left-0 h-full w-auto max-w-[100%] z-0 transform -translate-x-3/4">
             <div class="relative z-10">
                 <h2 class="text-4xl font-serif tracking-wide"><img src="./assets/sparkling-l.svg" alt="Sparkle" class="inline-block w-10 h-10 align-middle mr-2"> Presentes <img src="./assets/sparkling-l.svg" alt="Sparkle" class="inline-block w-10 h-10 align-middle ml-2"></h2>
                 <div class="mt-8 space-y-4 text-lg px-4 max-w-2xl mx-auto">
@@ -170,18 +172,15 @@
                     <p class="mt-6">Ou ainda, se preferir algum presente físico, também receberemos com muito carinho!</p>
                 </div>
             </div>
-            <img src="./assets/side-images/section5_rigth.svg" alt="" class="hidden md:block absolute top-0 right-0 h-full w-auto max-w-[50%] z-0 transform translate-x-3/4">
+            <img src="./assets/side-images/section5_rigth.svg" alt="" class="hidden md:block absolute top-0 right-0 h-full w-auto max-w-[100%] z-0 transform translate-x-3/4">
         </section>
-                
 
-
+        <!-- 6. Seção de Presentes (Baseado em image 6.jpg) -->
         <section class="py-12 relative">
-            <img src="./assets/side-images/section5_left.svg" alt="" class="hidden md:block absolute top-0 left-0 h-full w-auto max-w-[50%] z-0 transform -translate-x-3/4">
+            <img src="./assets/side-images/section6_left.svg" alt="" class="hidden md:block absolute top-0 left-0 h-full w-auto max-w-[100%] z-0 transform -translate-x-3/4">
             <div class="relative z-10">
                 <!-- Grid de Presentes (responsivo) -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-12 px-4">
-                    
-                    <!-- Itens da image 6.jpg -->
                     <div class="bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                         <p class="text-lg">Uma diária de hotel</p>
                         <p class="text-xl font-semibold mt-2">R$ 500</p>
@@ -208,11 +207,11 @@
                     </div>
                     <div class="bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                         <p class="text-lg text-center">Aula de mergulho<br>(sonho da noiva)</p>
-                        <p class="text-xl font-semibold mt-2">R$ 1200</p>
+                        <p class="text-xl font-semibold mt-2">R$ 1500</p>
                     </div>
                     <div class="bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                         <p class="text-lg text-center">Aula de mergulho<br>(para o noivo acompanhar)</p>
-                        <p class="text-xl font-semibold mt-2">R$ 1200</p>
+                        <p class="text-xl font-semibold mt-2">R$ 1500</p>
                     </div>
                     <div class="bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                         <p class="text-lg">Jogo de pratos novos</p>
@@ -220,17 +219,15 @@
                     </div>
                 </div>
             </div>
-            <img src="./assets/side-images/section5_rigth.svg" alt="" class="hidden md:block absolute top-0 right-0 h-full w-auto max-w-[50%] z-0 transform translate-x-3/4">
+            <img src="./assets/side-images/section6_rigth.svg" alt="" class="hidden md:block absolute top-0 right-0 h-full w-auto max-w-[100%] z-0 transform translate-x-3/4">
         </section>
-        
-        
+
+        <!-- 7. Seção de Presentes (Baseado em image 7.jpg) -->
         <section class="py-12 relative">
-            <img src="./assets/side-images/section5_left.svg" alt="" class="hidden md:block absolute top-0 left-0 h-full w-auto max-w-[50%] z-0 transform -translate-x-3/4">
+            <img src="./assets/side-images/section7_left.svg" alt="" class="hidden md:block absolute top-0 left-0 h-full w-auto max-w-[100%] z-0 transform -translate-x-3/4">
             <div class="relative z-10">
                 <!-- Grid de Presentes (responsivo) -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-12 px-4">
-
-                    <!-- Itens da image 7.jpg -->
                     <div class="bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                         <p class="text-lg">Dia de SPA para a noiva</p>
                         <p class="text-xl font-semibold mt-2">R$ 700</p>
@@ -245,7 +242,7 @@
                     </div>
                     <div class="bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                         <p class="text-lg">Abajur para o quarto</p>
-                        <p class="text-xl font-semibold mt-2">R$ 200</p>
+                        <p class="text-xl font-semibold mt-2">R$ 500</p>
                     </div>
                     <div class="bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                         <p class="text-lg">Plantinhas e vasos novos para a sacada</p>
@@ -265,16 +262,16 @@
                     </div>
                     <div class="bg-[#F5EFE6] border border-[#D1C7BD] rounded-2xl p-6 h-48 flex flex-col justify-center items-center">
                         <p class="text-lg">Piquenique</p>
-                        <p class="text-xl font-semibold mt-2">R$ 200</p>
+                        <p class="text-xl font-semibold mt-2">R$ 500</p>
                     </div>
                 </div>
             </div>
-            <img src="./assets/side-images/section5_rigth.svg" alt="" class="hidden md:block absolute top-0 right-0 h-full w-auto max-w-[50%] z-0 transform translate-x-3/4">
+            <img src="./assets/side-images/section7_rigth.svg" alt="" class="hidden md:block absolute top-0 right-0 h-full w-auto max-w-[100%] z-0 transform translate-x-3/4">
         </section>
 
-        <!-- 6. Seção Encerramento (Baseado em image 8.jpg) -->
+        <!-- 8. Seção Encerramento (Baseado em image 8.jpg) -->
         <section class="py-12 relative">
-            <img src="./assets/side-images/section6_left.svg" alt="" class="hidden md:block absolute top-0 left-0 h-full w-auto max-w-[50%] z-0 transform -translate-x-3/4">
+            <img src="./assets/side-images/section8_left.svg" alt="" class="hidden md:block absolute top-0 left-0 h-full w-auto max-w-[100%] z-0 transform -translate-x-3/4">
             <div class="relative z-10">
                 <!-- Ícone de alianças -->
                 <img src="./assets/rings.svg" alt="Anéis de Casamento" class="rings-svg mx-auto my-8" width="192" height="49">
@@ -291,7 +288,7 @@
                 <!-- Monograma M|F -->
                 <div class="text-4xl font-brown-sugar tracking-widest mt-10">M|F</div>
             </div>
-            <img src="./assets/side-images/section6_rigth.svg" alt="" class="hidden md:block absolute top-0 right-0 h-full w-auto max-w-[50%] z-0 transform translate-x-3/4">
+            <img src="./assets/side-images/section8_rigth.svg" alt="" class="hidden md:block absolute top-0 right-0 h-full w-auto max-w-[100%] z-0 transform translate-x-3/4">
         </section>
 
     </main>
